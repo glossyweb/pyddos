@@ -46,7 +46,7 @@ except:
 			os.system('sudo pip install colorama termcolor requests')
 			sys.exit('[+] I have installed nessecary modules for you')
 		elif os.name == 'nt':
-			os.sytem('c:\python27\scripts\pip.exe install colorama requests termcolor')
+			os.system('c:\python27\scripts\pip.exe install colorama requests termcolor')
 			sys.exit('[+] I have installed nessecary modules for you')
 		else:
 			sys.exit('[-] Download and install nessecary modules')
